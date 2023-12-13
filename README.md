@@ -1,5 +1,3 @@
-![Cartify banner](public/img/social-card.jpg)
-
 Welcome to Cartify, the cutting-edge ecommerce platform that revolutionizes the way you do online business. Built with
 the powerful combination of **Laravel**, **Livewire**, **Alpine.js**, and **Tailwind CSS**, Cartify brings you a
 comprehensive suite of features and an unparalleled user experience.
