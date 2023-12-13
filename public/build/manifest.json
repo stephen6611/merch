@@ -1,0 +1,52 @@
+{
+  "resources/js/admin.js": {
+    "file": "assets/admin.e754ed92.js",
+    "src": "resources/js/admin.js",
+    "isEntry": true,
+    "imports": [
+      "_index.e2b751c6.js"
+    ],
+    "css": [
+      "assets/admin.bab5066a.css"
+    ]
+  },
+  "resources/js/guest.js": {
+    "file": "assets/guest.3d6da089.js",
+    "src": "resources/js/guest.js",
+    "isEntry": true,
+    "imports": [
+      "_index.e2b751c6.js"
+    ],
+    "css": [
+      "assets/guest.1d13cd18.css"
+    ]
+  },
+  "_index.e2b751c6.js": {
+    "file": "assets/index.e2b751c6.js",
+    "css": [
+      "assets/index.a1ae07b3.css"
+    ]
+  },
+  "resources/js/guest.css": {
+    "file": "assets/guest.1d13cd18.css",
+    "src": "resources/js/guest.css"
+  },
+  "index.css": {
+    "file": "assets/index.a1ae07b3.css",
+    "src": "index.css"
+  },
+  "resources/js/admin.css": {
+    "file": "assets/admin.bab5066a.css",
+    "src": "resources/js/admin.css"
+  },
+  "resources/css/admin.css": {
+    "file": "assets/admin.6dcdc09c.css",
+    "src": "resources/css/admin.css",
+    "isEntry": true
+  },
+  "resources/css/guest.css": {
+    "file": "assets/guest.cd2c2341.css",
+    "src": "resources/css/guest.css",
+    "isEntry": true
+  }
+}

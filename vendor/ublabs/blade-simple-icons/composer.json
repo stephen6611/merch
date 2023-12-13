@@ -1,0 +1,52 @@
+{
+    "name": "ublabs/blade-simple-icons",
+    "description": "A package to easily make use of Simple Icons in your Laravel Blade views.",
+    "keywords": [
+        "ublabs",
+        "laravel",
+        "blade-simple-icons"
+    ],
+    "homepage": "https://github.com/ublabs/blade-simple-icons",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrián UB",
+            "homepage": "https://github.com/adrian-ub"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "blade-ui-kit/blade-icons": "^1.1",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ublabs\\BladeSimpleIcons\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "generate-icons": "vendor/bin/blade-icons-generate",
+        "test": "vendor/bin/phpunit --verbose"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ublabs\\BladeSimpleIcons\\BladeSimpleIconsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
