@@ -109,7 +109,7 @@
                                     href="{{ route('login') }}"
                                     class="-m-2 block p-2 font-medium text-slate-900"
                                 >
-                                    {{ __('Sign in') }}
+                                    {{ __('Masuk') }}
                                 </a>
                             </div>
                             <div class="flow-root">
@@ -117,7 +117,7 @@
                                     href="{{ route('register') }}"
                                     class="-m-2 block p-2 font-medium text-slate-900"
                                 >
-                                    {{ __('Create account') }}
+                                    {{ __('Daftar') }}
                                 </a>
                             </div>
                         @else
@@ -311,7 +311,7 @@
                                     href="{{ route('login') }}"
                                     class="text-sm font-medium text-slate-700 hover:text-slate-800"
                                 >
-                                    {{ __('Sign in') }}
+                                    {{ __('Masuk') }}
                                 </a>
                                 <span
                                     class="h-6 w-px bg-slate-200"
@@ -321,7 +321,7 @@
                                     href="{{ route('register') }}"
                                     class="text-sm font-medium text-slate-700 hover:text-slate-800"
                                 >
-                                    {{ __('Create account') }}
+                                    {{ __('Daftar') }}
                                 </a>
                             @else
                                 <x-dropdown>
